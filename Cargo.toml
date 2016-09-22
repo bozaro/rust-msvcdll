@@ -1,0 +1,11 @@
+[package]
+name = "msvcdll"
+version = "0.1.0"
+authors = ["Artem Navrotskiy <bozaro@yandex.ru>"]
+
+[lib]
+crate-type = ["lib", "dylib"]
+
+[dependencies]
+winapi = "0.2.7"
+kernel32-sys = "0.2.2"

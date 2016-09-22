@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["Artem Navrotskiy <bozaro@yandex.ru>"]
 
 [lib]
-crate-type = ["lib", "dylib"]
+crate-type = ["lib", "cdylib"]
 
 [dependencies]
 winapi = "0.2.7"
